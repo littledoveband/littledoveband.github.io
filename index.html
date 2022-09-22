@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Little Dove</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @font-face {
+          font-family: 'Header';
+          src:url('header.woff') format('woff'); 
+          font-weight: normal;
+          font-style: normal;
+        }
+        a:link, a:visited, a:active {
+          color: rgb(255,255,255);
+          text-decoration: none;
+        }
+        a:hover {color: rgb(150,175,215);}
+        body {
+          background: rgb(0,0,0) url("bg.jpg") no-repeat center top;
+          background-size: contain;
+          color: rgb(255,255,255);
+          font-family: Arial, sans-serif;
+          height: 100vh;
+          margin: 0;
+        }
+        main {
+          margin: 0 auto;
+          max-width: 40rem;
+          padding: 0 1rem;
+          text-align: center;
+        }
+        h1 {
+            background: rgb(0,0,0);
+            display: inline-block;
+            font-family: 'Header';
+            font-size: 2rem;
+            padding: .5rem;
+        }
+        h1 div {
+          border: 1px solid rgb(255,255,255);
+          padding: 0 1rem;
+        }
+        p {
+          margin-top: 0;
+        }
+        ul {
+          display: inline-block;
+          list-style: none;
+          margin: 0 auto;
+          padding-left: 0;
+          text-align: left;
+        }
+        li {
+          background: rgb(0,0,0);
+          border: 1px solid rgb(128,128,128);
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+          padding: .25rem .75rem .25rem .25rem;
+        }
+        li div {
+          background: url("icons.png");
+          background-repeat: no-repeat;
+          background-size: 14rem 2rem;
+          height: 2rem;
+          width: 2rem;
+          display: inline-block;
+          margin-right: .5rem;
+          vertical-align: text-bottom;
+        }
+        #fb div {background-position: -4rem 0;}
+        #ig div {background-position: -6rem 0;}
+        #yt div {background-position: -10rem 0;}
+        #bc div {background-position: 0 0;}
+        #em div {background-position: -12rem 0;}
+        @media (max-width: 20rem) {
+          h1 {font-size: 1.5rem;}
+         }
+    </style>
+</head>
+<body>
+<div>
+<main>
+    <!--img id="photo" src="band.jpg" alt="band photo"-->
+    <h1><div>Little Dove</div></h1>
+    <p>A sentence or more about this site/band/artist. Not strictly necessary, but probably better for SEO.</p>
+    <ul>
+    <li id="ig"><a href="https://www.instagram.com/littledoveband"><div></div>Instagram</a></li>
+    <li id="fb"><a href="https://www.facebook.com/https://www.facebook.com/LittleDoveBand"><div></div>Facebook</a></li>
+    <li id="yt"><a href="https://www.youtube.com/user/LittleDoveBand"><div></div>YouTube</a></li>
+    <li id="bc"><a href="https://littledove.bandcamp.com"><div></div>Bandcamp</a></li>
+    <li id="em"><a href="mailto:littledoveband@gmail.com?subject=Message from littledoveband.com"><div></div>Email Us</a></li>
+    </ul>
+</main>
+</div>
+</body>
+</html>
+<!--
+#
+# Some notes to self
+#
+
+LD logotype from sample is Gin typeface from Adobe
+https://fonts.adobe.com/fonts/gin
+
+Other font options:
+  Zabdilus
+  Blackmoon Quest
+  Esporte
+  Snow White (using this one now)
+  Irish Penny
+
+-->
